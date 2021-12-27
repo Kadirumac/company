@@ -8,7 +8,7 @@
  */
 
 :root {
-  --primary: #6C55F9;
+  --primary: #FFCC33;
   --accent: #FF3D85;
   --secondary: #645F88;
   --success: #35bb78;
@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: #6C55F9;
+  color: #FFCC33;
   text-decoration: none;
   background-color: transparent;
 }
@@ -62,7 +62,7 @@ a:hover {
 
 /* Color systems */
 .bg-primary {
-  background-color: #6C55F9 !important;
+  background-color: #FFCC33 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus {
@@ -142,7 +142,7 @@ a.bg-dark:hover, a.bg-dark:focus {
 }
 
 .text-primary {
-  color: #6C55F9 !important;
+  color: #FFCC33 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -247,7 +247,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .border-primary {
-  border-color: #6C55F9 !important;
+  border-color: #FFCC33 !important;
 }
 
 .border-accent {
@@ -439,7 +439,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-primary {
   color: #fff;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   border-color: transparent;
 }
 
@@ -452,7 +452,7 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   border-color: #5d47eb;
 }
 
@@ -703,14 +703,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-primary {
-  color: #6C55F9;
-  border-color: #6C55F9;
+  color: #FFCC33;
+  border-color: #FFCC33;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #6C55F9;
-  border-color: #6C55F9;
+  background-color: #FFCC33;
+  border-color: #FFCC33;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -718,15 +718,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #6C55F9;
+  color: #FFCC33;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #6C55F9;
-  border-color: #6C55F9;
+  background-color: #FFCC33;
+  border-color: #FFCC33;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -1029,11 +1029,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .breadcrumb-dark .breadcrumb-item a {
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 .breadcrumb-dark .breadcrumb-item a:hover {
-  color: #6C55F9;
+  color: #FFCC33;
   text-decoration: none;
 }
 
@@ -1124,7 +1124,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 500;
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 
@@ -1216,7 +1216,7 @@ a.text-dark:hover, a.text-dark:focus {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   border-color: #4330c2;
 }
 
@@ -1370,7 +1370,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .back-to-top:hover {
-  background: #6C55F9;
+  background: #FFCC33;
 }
 
 .back-to-top:hover::after {
@@ -1436,7 +1436,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-banner.home-banner .btn-scroll:hover {
   text-decoration: none;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   color: #fff;
 }
 
@@ -1490,7 +1490,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .title-section .marked {
   position: relative;
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 .title-section .marked::before {
@@ -1516,7 +1516,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 32px;
   height: 3px;
   border-radius: 40px;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
 }
 
 
@@ -1539,7 +1539,7 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 32px;
   text-align: center;
   background-color: #fff;
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 
@@ -1672,7 +1672,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-pricing.active {
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   border-color: #5d47eb;
 }
 
@@ -1697,7 +1697,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-pricing.active .btn-outline:hover {
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 
@@ -1770,7 +1770,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-blog-row *:first-child .card-blog {
-  background-color: #6C55F9;
+  background-color: #FFCC33;
 }
 
 .card-blog-row *:first-child .card-blog .post-author,
@@ -1842,7 +1842,7 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%;
   text-align: center;
   border: 1px solid #D7D5E9;
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 .contact-list .content {
@@ -1902,7 +1902,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer-menu a:hover,
 .footer-link:hover {
-  color: #6C55F9;
+  color: #FFCC33;
   text-decoration: none;
 }
 
@@ -1919,7 +1919,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .sosmed-button a:hover {
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   color: #fff;
   text-decoration: none;
   transform: rotate(360deg);
@@ -2028,7 +2028,7 @@ a.text-dark:hover, a.text-dark:focus {
 .blog-single-wrap .post-content .quote {
   display: block;
   padding: 16px 20px;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   color: #fff;
   font-size: 18px;
   border-radius: 8px;
@@ -2052,7 +2052,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .widget-title {
-  color: #6C55F9;
+  color: #FFCC33;
 }
 
 .search-widget .form-control {
@@ -2084,7 +2084,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .categories li a:hover {
-  color: #6C55F9;
+  color: #FFCC33;
   text-decoration: none;
   font-weight: 500;
   text-shadow: 0 2px 4px rgba(107, 85, 249, 0.5);
@@ -2121,7 +2121,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .blog-item .post-title a:hover {
-  color: #6C55F9;
+  color: #FFCC33;
   text-decoration: none;
 }
 
@@ -2188,7 +2188,7 @@ a.text-dark:hover, a.text-dark:focus {
 .owl-carousel .owl-nav button.owl-prev {
   display: inline-block;
   padding: 6px 0 !important;
-  background-color: #6C55F9;
+  background-color: #FFCC33;
   color: #fff;
 }
 
@@ -2225,5 +2225,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .owl-carousel button.owl-dot.active {
-  background-color: #6C55F9;
+  background-color: #FFCC33;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: 75px;
 }
