@@ -10,7 +10,7 @@
 :root {
     --primary: #FFCC33;
     --accent: #FF3D85;
-    --secondary: #645F88;
+    --secondary: #E6E6E6;
     --success: #35bb78;
     --info: #05B4E1;
     --warning: #FAC14D;
@@ -1476,6 +1476,8 @@ a.text-dark:focus {
     padding-bottom: 80px;
     background-color: #fff;
     overflow: hidden;
+    border-bottom: 1px solid #e9e8f5;
+    ;
 }
 
 .page-section p {
@@ -1487,8 +1489,8 @@ a.text-dark:focus {
     margin-top: 16px;
     margin-bottom: 16px;
     height: 320px;
-    background-color: #F6F5FC;
-    color: #645F88;
+    background-color: var(--secondary);
+    color: #3b3b3b;
     border-radius: 30px;
 }
 
@@ -1591,7 +1593,7 @@ a.text-dark:focus {
     left: 0;
     width: 100%;
     height: 8px;
-    background-color: #d3ccff;
+    background-color: var(--secondary);
     z-index: -1;
 }
 
@@ -2330,7 +2332,7 @@ ol.odd {
     margin: 1em auto;
     width: 6rem;
     height: 10.2rem;
-    background: #1e2530;
+    background: var(--secondary);
     transform: rotate(-90deg);
     display: inline-block;
     list-style-type: none;
