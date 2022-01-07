@@ -10,7 +10,7 @@
 :root {
     --primary: #FFCC33;
     --accent: #FF3D85;
-    --secondary: #645F88;
+    --secondary: #E6E6E6;
     --success: #35bb78;
     --info: #05B4E1;
     --warning: #FAC14D;
@@ -1476,6 +1476,8 @@ a.text-dark:focus {
     padding-bottom: 80px;
     background-color: #fff;
     overflow: hidden;
+    border-bottom: 1px solid #e9e8f5;
+    ;
 }
 
 .page-section p {
@@ -1487,8 +1489,8 @@ a.text-dark:focus {
     margin-top: 16px;
     margin-bottom: 16px;
     height: 320px;
-    background-color: #F6F5FC;
-    color: #645F88;
+    background-color: var(--secondary);
+    color: #3b3b3b;
     border-radius: 30px;
 }
 
@@ -1591,7 +1593,7 @@ a.text-dark:focus {
     left: 0;
     width: 100%;
     height: 8px;
-    background-color: #d3ccff;
+    background-color: var(--secondary);
     z-index: -1;
 }
 
@@ -1875,8 +1877,8 @@ a.text-dark:focus {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 300px;
-    height: 280px;
+    width: 400px;
+    height: 90%;
     background-color: #645F88;
     border-radius: 8px;
     overflow: hidden;
@@ -1884,7 +1886,8 @@ a.text-dark:focus {
 
 .testi-image img {
     width: 100%;
-    height: auto;
+    object-fit: cover;
+    height: 100%;
 }
 
 .testi-content {
@@ -2311,4 +2314,69 @@ a.text-dark:focus {
 .navbar-logo {
     height: 40px;
     width: 75px;
+}
+
+ol.even {
+    position: relative;
+    left: 5.45455rem;
+    margin-bottom: -6.5%;
+}
+
+ol.odd {
+    position: relative;
+    margin-bottom: -6.5%;
+}
+
+.hex {
+    position: relative;
+    margin: 1em auto;
+    width: 6rem;
+    height: 10.2rem;
+    background: var(--secondary);
+    transform: rotate(-90deg);
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 4.61538rem;
+    transition: all 150ms ease-in-out;
+    z-index: 2;
+}
+
+.hex:before,
+.hex:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+    z-index: -1;
+}
+
+.hex:before {
+    transform: rotate(60deg);
+}
+
+.hex:after {
+    transform: rotate(-60deg);
+}
+
+.hex:hover {
+    background: var(--primary);
+    cursor: pointer;
+}
+
+.hex:hover img {
+    transform: scale(1.2)
+}
+
+.hex .hex-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    color: white;
+}
+
+.skills-section {
+    background: #fff;
 }
