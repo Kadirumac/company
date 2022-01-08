@@ -2,3 +2,37 @@
     width: 5rem;
     height: 5rem;
 }
+
+#eleman{
+    margin-right: 110px;
+}
+
+#footer_middle{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1000px)  {
+    #eleman{
+        margin-right: 150px;
+    }
+
+    #footer_middle{
+        justify-content: left;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #eleman{
+        margin-right: 74px;
+    }
+  }
+  
+  @media only screen and (max-width: 409px) {
+    .hex{
+        margin-right: 124px;
+    }
+
+    #eleman{
+        margin-right: 124px;
+    }
+  }
