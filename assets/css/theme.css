@@ -2380,3 +2380,8 @@ ol.odd {
 .skills-section {
     background: #fff;
 }
+
+.skills-mobile div {
+    display: flex;
+    justify-content: center;
+}
