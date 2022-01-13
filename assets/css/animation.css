@@ -14,7 +14,7 @@ body:before {
 
 .card-sliders {
     overflow: hidden;
-    height: 95vh;
+    height: auto;
 }
 
 .card-sliders .container {
