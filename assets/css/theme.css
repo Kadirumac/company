@@ -1489,7 +1489,7 @@ a.text-dark:focus {
     margin-top: 16px;
     margin-bottom: 16px;
     height: 320px;
-    background-color: var(--secondary);
+    background-color: #fff;
     color: #3b3b3b;
     border-radius: 30px;
 }
