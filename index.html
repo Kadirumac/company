@@ -65,30 +65,27 @@
                 </div>
             </div>
         </nav>
-
-        <div class="page-banner home-banner">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-lg-6 py-3 wow fadeInUp">
-                        <h1 class="mb-4">Great Companies are built on great Products</h1>
-
-                        <!-- Button trigger modal -->
-                        <a class="btn btn-primary btn-split ml-2 pr-4" data-toggle="modal" data-target="#myModal">
-              Watch Video
-            </a>
-
+        <br><br><br>
+        <div class="video-responsive">
+            <video class="video" muted="muted" loop="loop" autoplay="autoplay">
+                <source src="assets/videos/meeting.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        
+            <canvas class="canvas"></canvas>
+        
+            <div id="over_video">
+                <div class="bg-mask">
+                    <div class="video-heading">
+                        <h3>Corporate Agency for Your Business Solutions</h3>
+                        <a class="btn btn-primary btn-split ml-2 pr-4" data-toggle="modal" data-target="#myModal"> Watch Video </a>
                     </div>
-                    <div class="col-lg-6 py-3 wow zoomIn">
-                        <div class="img-place">
-                            <img src="./assets/img/bg_image_1.svg" alt="">
-                        </div>
-                    </div>
+        
                 </div>
             </div>
         </div>
-    </header>
 
-    <!-- Modal -->
+            <!-- Modal -->
     <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
@@ -100,6 +97,10 @@
             </div>
         </div>
     </div>
+
+        
+        <script src="assets/js/canvas-video-player.js"></script>
+        
     <main>
         <div class="page-section features">
             <div class="container">
@@ -156,7 +157,7 @@
                     <div class="col-lg-6 py-3 wow fadeInRight">
                         <h2 class="title-section">We're <span class="marked">Dynamic</span> Team of Creatives People</h2>
                         <div class="divider"></div>
-                        <p>We provide marketing services to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
+                        <p>We provide software solutions to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
                     </div>
                 </div>
             </div>
@@ -248,7 +249,8 @@
                     <div class="col-lg-6 py-3 wow fadeInLeft">
                         <h2 class="title-section">We're <span class="marked">ready to</span> Serve you with best</h2>
                         <div class="divider"></div>
-                        <p class="mb-5">We are ready to provide software services to startups & small business to looking for partner for their digital media, design & dev lead generation & communication.</p>
+                        <p class="mb-5">Business planning, Strategy and Execution. A problem-solving philosophy that leads to
+                            products people actually want to use.</p>
 
                     </div>
                     <div class="col-lg-6 py-3 wow zoomIn">
