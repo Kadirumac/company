@@ -1,0 +1,25 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+:root {
+  --para-color: #696969;
+  --heading-color: #3f3a64;
+  --theme-light: rgba(14, 181, 130, 0.04);
+  --bg-light: #f6f6f6;
+  --primary-color: #0099e5;
+  --secondary-color: #0066ff;
+  --border-radius: 8px;
+}
+
+.btn-effect {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  position: relative;
+  z-index: 1;
+}
